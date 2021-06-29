@@ -81,24 +81,25 @@ const Hero = ({
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
-              data-video="https://player.vimeo.com/video/174002812"
+             /*data-video="https://player.vimeo.com/video/174002812"*/
+             src={require('./../../assets/images/coverimage.png')}
               href="#0"
               aria-controls="video-modal"
-              onClick={openModal}
+             /* onClick={openModal}*/
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={require('./../../assets/images/coverimage.png')}
                 alt="Hero"
-                width={896}
-                height={504} />
+                width={996}
+                height={996} />
             </a>
           </div>
           <Modal
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
+            /*video="https://player.vimeo.com/video/174002812"*/
             videoTag="iframe" />
         </div>
       </div>
