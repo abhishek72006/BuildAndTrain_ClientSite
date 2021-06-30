@@ -79,7 +79,7 @@ const Header = ({
       {...props}
       className={classes}
     >
-      <div className="container ">
+      <div className="container bg-white">
         <div className={
           classNames(
             'site-header-inner',
