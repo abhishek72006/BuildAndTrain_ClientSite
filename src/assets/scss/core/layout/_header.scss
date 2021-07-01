@@ -49,7 +49,6 @@
 			margin-left: $header-nav--padding-h;
 		}
     }
-
     a:not(.button) {
 		display: block;
         @include anchor-aspect(header);
