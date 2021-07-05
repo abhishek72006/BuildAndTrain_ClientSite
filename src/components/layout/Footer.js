@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import Logo from './partials/Logo';
+/*import Logo from './partials/Logo';*/
 import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
 
@@ -39,7 +39,7 @@ const Footer = ({
             'site-footer-inner',
             topDivider && 'has-top-divider'
           )}>
-          <h7>About us</h7>
+          <h7><strong>About us</strong></h7>
           <div className="footer-top space-between text-xxs">
           <h8><br></br>Build And Train is a platform for aspiring civil engineers and for all enthusiastic youths who desire to work <br></br>with, and for the community, along with others who share the same purview.</h8>     
             <FooterSocial />
